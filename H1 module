@@ -1,0 +1,10 @@
+class openssh {
+        package {'openssh-client':
+                ensure => 'installed',
+                allowcdrom => 'true',
+       }
+        package {'openssh-server':
+                ensure => 'installed',
+                allowcdrom => 'true',
+       }
+}
