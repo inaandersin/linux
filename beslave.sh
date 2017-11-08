@@ -1,4 +1,3 @@
-
 sudo apt-get update
 sudo apt-get -y install puppet
 echo "192.168.10.46 master" |sudo tee --append /etc/hosts
