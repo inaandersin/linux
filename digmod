@@ -1,0 +1,4 @@
+class filecopy { 'E:\projektit':
+          ensure => present,
+          source => "C:\Users\Siwon\Desktop",
+}
