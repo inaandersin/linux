@@ -12,3 +12,16 @@ class krita {
         allowcdrom => 'true',
         }
 }
+
+#Muistiinpanoja:
+#apt-cache search wacom -etsitään ajurit täältä, jos ei löydy niin pitää ladata netistä
+#sudo lsusb -vvv |less -usb 
+# /var/log listaa usb aktiviteetti *
+
+#Lähteitä:
+# https://groups.google.com/forum/#!topic/puppet-users/1EGs2iS5IyA
+# https://puppet.com/docs/puppet/5.3/types/file.html
+# https://serverfault.com/questions/739604/copy-folder-and-its-subfolders-from-puppet-master-to-agent
+# http://linuxwacom.sourceforge.net/wiki/index.php/Downloads
+# https://lauri.võsandi.com/cfgmgmt/puppet-cups.html
+# https://github.com/garethr/garethr-docker - En tiedä onko tästä mitään hyötyä... katotaan.
