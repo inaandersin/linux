@@ -5,3 +5,10 @@ class copyfile {
         recurse => 'remote',
         }
 }
+
+class krita {
+        package {'krita':
+        ensure => 'installed',
+        allowcdrom => 'true',
+        }
+}
