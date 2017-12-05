@@ -1,0 +1,7 @@
+class copyfile {
+        file {'/media/xubuntu/F5AB-1DB5/':
+        ensure => 'directory',
+        source => '/home/xubuntu/Pictures/',
+        recurse => 'remote',
+        }
+}
