@@ -1,4 +1,4 @@
-class filecopy { 'E:\projektit':
+class filecopy {'/media/xubuntu/F5AB-1DB5/':
           ensure => present,
-          source => "C:\Users\Siwon\Desktop",
+          source => "/home/xubuntu/Pictures/",
 }
