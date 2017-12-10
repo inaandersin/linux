@@ -17,6 +17,7 @@ class krita {
 #apt-cache search wacom -etsitään ajurit täältä, jos ei löydy niin pitää ladata netistä
 #sudo lsusb -vvv |less -usb 
 # /var/log listaa usb aktiviteetti *
+ID 056a:033b Wacom Co., Ltd bus 001, device 007
 
 #Lähteitä:
 # https://groups.google.com/forum/#!topic/puppet-users/1EGs2iS5IyA
