@@ -13,7 +13,7 @@ class artsy {
                 source => "/etc/puppet/modules/artsy/files/Untitled_by_Aaron_Burde$
         }
 
-        file { "/home/xubuntu/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-de$
+        file { "/home/xubuntu/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml":
                 content => template("bg/xfce4-desktop.xml"),
         }
 
