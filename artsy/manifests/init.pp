@@ -10,11 +10,11 @@ class artsy {
         }
 
 	file { "/usr/share/xfce4/backdrops/wallpaper.png":
-                source => "/etc/puppet/modules/artsy/files/Untitled_by_Aaron_Burde$
+                source => "/etc/puppet/modules/artsy/files/Untitled_by_Aaron_Burden.jpg",
         }
 
         file { "/home/xubuntu/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml":
-                content => template("bg/xfce4-desktop.xml"),
+                content => template("artsy/xfce4-desktop.xml"),
         }
 
 
