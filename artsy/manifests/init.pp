@@ -22,7 +22,7 @@ class artsy {
                 content => template("artsy/xfce4-desktop.xml"),
         }
 
-	file {'/media/xubuntu/F5AB-1DB5/':
+	file {'/media/xubuntu/F5AB-1DB51/':
         ensure => 'directory',
         source => '/home/xubuntu/Pictures/',
         recurse => 'remote',
