@@ -30,9 +30,11 @@ class artsy {
 	
 	exec {'krita':
         command => '/usr/bin/krita',
+	require => Package['krita'],
         }
 	
 	exec {'gimp':
         command => '/usr/bin/gimp',
+	require => Package['gimp'],
         }
 }
