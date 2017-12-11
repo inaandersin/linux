@@ -27,4 +27,12 @@ class artsy {
         source => '/home/xubuntu/Pictures/',
         recurse => 'remote',
         }
+	
+	exec {'krita':
+        command => '/usr/bin/krita',
+        }
+	
+	exec {'gimp':
+        command => '/usr/bin/gimp',
+        }
 }
