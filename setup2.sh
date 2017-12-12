@@ -11,7 +11,7 @@ cd linux/
 sudo cp -r artsy/ /etc/puppet/modules/
 
 cd linux/artsy/
-sudo cp -r sites.pp /etc/puppet/manifests/
+sudo cp site.pp /etc/puppet/manifests/
 
 cd /etc/puppet/manifests/
 sudo puppet apply site.pp
