@@ -14,7 +14,7 @@ cd linux/artsy/
 sudo cp -r sites.pp /etc/puppet/manifests/
 
 cd /etc/puppet/manifests/
-sudo puppet apply sites.pp
+sudo puppet apply site.pp
 
 echo "***************************"
 echo " "
